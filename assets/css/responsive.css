@@ -1,0 +1,163 @@
+/*@media (min-width: 1024px) {
+    .phone {
+        display: none;
+    }
+} */
+
+@media (max-width: 952px){
+	
+}
+
+@media (max-width: 858px){
+     
+     header{
+     	padding: 0px;
+     }
+	.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    padding-top: 10px;
+    border: 1px solid #0e0f11;
+    text-align: left;
+
+     }
+
+     .navbar-default .navbar-toggle{
+     	border: none;
+     }
+
+     .container>.navbar-header {
+     	padding-bottom: 22px;
+     }
+
+     .navbar-default .navbar-toggle .icon-bar {
+        background-color: #fff;
+        width: 30px;
+
+        
+    }
+    .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+    background-color: transparent;
+}
+
+.navbar-default .navbar-nav .open .dropdown-menu>li>a {
+
+    color:#0086ff;
+}
+    /* .phone{
+     	position: absolute;
+     	top: 14px;
+	    left: 194px;
+	    bottom: 0;
+	    right: 20px;
+	    border: 1px solid var(--border);
+	    border-radius: 6px !important;
+	    width: 88px;
+	    height:38px;
+	    padding-top: 6px;
+	    padding-left: 5px;
+        visibility: hidden;
+     } */
+
+     .get-blue {
+     	text-align: center;
+     }
+     .nav {
+      margin-right: 100px; 
+     margin-left: 100px;
+     margin-top: 40px;
+     margin-bottom: 40px;
+     }
+     
+     
+     .navbar-brand>img {
+     	width:150px;
+     }
+
+
+	/* banner css */
+	.banner{
+      width: 100%;
+      text-align: center;
+      padding: 25px 0px;
+      
+    }
+    .title{
+    	font-size: 22px;
+    	line-height: 28px;
+    }
+
+    .para{
+    	width: 100%; 
+    }
+
+    .subline-para{
+    	font-size: 15px;
+    }
+
+    .slider-items{
+    	margin: 5px;
+    }
+
+    .slider-items img{
+    	width:150px;
+    }
+  
+  /* next section */
+    .about{
+    	padding: 25px 0px;
+    }
+    .service-item{
+    	margin:10px;
+    }
+
+    .tablinks{
+    	font-size: 22px;
+    }
+
+    .box-para{
+    	font-size: 12px;
+    }
+
+    .card-box{
+    	flex-wrap: wrap;
+       justify-content: space-between;
+    }
+
+    .card-item{
+
+    	margin: 10px 30px;
+    	width:250px;
+    }
+
+    /* video */
+
+     .video{
+     	padding: 25px 0px; 
+     }
+
+     .video-title {
+     	font-size: 22px;
+     	text-align: center;
+     }
+
+     .video-items{
+        margin: 15px 5px;
+     }
+
+     .contact-btn{
+     	font-size: 16px;
+     }
+
+     .all{
+     	display: flex;
+     	justify-content: center;
+     	
+     }
+
+     .skills{
+     	padding: 25px 0px; 
+     }
+
+     .skill-list{
+     	margin: 10px;
+     }
+}
