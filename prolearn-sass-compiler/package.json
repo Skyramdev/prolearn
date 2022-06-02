@@ -1,0 +1,16 @@
+{
+  "name": "prolearn-sass-compiler",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "css": "node-sass --include-path scss scss/style.scss css/style.css",
+    "watch": "nodemon -e scss -x npm run css"
+  },
+  "author": "Preetam Skyram",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^7.0.1",
+    "nodemon": "^2.0.16"
+  }
+}
